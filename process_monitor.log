@@ -1,0 +1,18 @@
+INFO:root:CPU: 36.3% at 2025-09-17 15:33:13
+WARNING:root:High CPU: 36.3%
+INFO:root:CPU: 13.3% at 2025-09-17 15:33:16
+WARNING:root:High CPU: 13.3%
+INFO:root:CPU: 22.1% at 2025-09-17 15:33:19
+WARNING:root:High CPU: 22.1%
+INFO:root:CPU: 9.1% at 2025-09-17 15:33:22
+INFO:root:CPU: 15.5% at 2025-09-17 15:33:25
+WARNING:root:High CPU: 15.5%
+INFO:root:CPU: 10.6% at 2025-09-17 15:33:28
+WARNING:root:High CPU: 10.6%
+INFO:root:CPU: 12.5% at 2025-09-17 15:33:31
+WARNING:root:High CPU: 12.5%
+INFO:root:CPU: 12.4% at 2025-09-17 15:33:34
+WARNING:root:High CPU: 12.4%
+INFO:root:CPU: 13.0% at 2025-09-17 15:33:37
+WARNING:root:High CPU: 13.0%
+INFO:root:Stopped
