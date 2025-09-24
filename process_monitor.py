@@ -10,7 +10,15 @@ parser.add_argument('--threshold', '-t', type=float, default=80.0, help="CPU % f
 args = parser.parse_args()
 
 # Set up logging
-logging.basicConfig(filename='/app/process_monitor.log', level=logging.INFO, force=True)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('/app/process_monitor.log', mode='a'),
+        logging.StreamHandler()
+        ]
+    )
+logging.getLogger().handlers[0].stream.reconfigure(write_through=True)
 
 # Parsing validation
 try:
