@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 RUN pip install psutil
 
-COPY process_monitor.py
+COPY process_monitor.py /app/
 
 WORKDIR /app
 
