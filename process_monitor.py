@@ -10,7 +10,7 @@ parser.add_argument('--threshold', '-t', type=float, default=80.0, help="CPU % f
 args = parser.parse_args()
 
 # Set up logging
-logging.basicConfig(filename='process_monitor.log', level=logging.INFO)
+logging.basicConfig(filename='/app/process_monitor.log', level=logging.INFO, force=True)
 
 # Parsing validation
 try:
